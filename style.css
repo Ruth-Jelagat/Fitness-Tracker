@@ -1,6 +1,6 @@
 :root {
   --primary-color: #2e7d32;
-  --primary-dark: #1b5e20;
+  --primary-dark: #1f9129;
   --bg-light: #f9f9f9;
   --bg-alt: #e8f5e9;
   --card-bg: #ffffff;
@@ -34,7 +34,7 @@ header p {
 
 h1, h2 {
   margin: 10px 0;
-  color: #1b5e20;
+  color: #162c18;
 }
 
 .form-section {
