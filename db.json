@@ -1,0 +1,93 @@
+{
+  "meals": [
+    {
+      "id": "m1",
+      "name": "Arrabiata",
+      "calories": 350,
+      "goal": "lose",
+      "likes": 0
+    },
+    {
+      "id": "m2",
+      "name": "Chicken Handi",
+      "calories": 300,
+      "goal": "lose",
+      "likes": 0
+    },
+    {
+       "id": "m3",
+       "name": "Fish Tacos",
+       "calories": 450,
+       "goal": "maintain",
+       "likes": 0
+    },
+    {
+      "id": "m4",
+      "name": "Chicken Alfredo",
+      "calories": 600,
+      "goal": "maintain",
+      "likes": 0
+    },
+    {
+      "id": "m5",
+      "name": "Beef Bourguignon",
+      "calories": 650,
+      "goal": "gain",
+      "likes": 0
+    },
+    {
+      "id": "m6",
+      "name": "Beef Stroganoff",
+      "calories": 550,
+      "goal": "gain",
+      "likes": 0
+    }
+       ],
+  "workouts": [
+    { "id": "w1", 
+    "name": "Jump Rope",
+    "duration": "15 min", 
+    "goal": "lose", 
+    "caloriesBurned": 200, 
+    "likes": 0, 
+    "image": "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg" },
+    {"id": "w7",
+    "name": "Swimming",
+    "duration": "45 min",
+    "goal": "lose",
+    "caloriesBurned": 350,
+    "likes": 0,
+    "image": "https://images.pexels.com/photos/261101/pexels-photo-261101.jpeg"},
+    {"id": "w3",
+    "name": "Running",
+    "duration": "30 min",
+    "goal": "maintain",
+    "caloriesBurned": 150,
+    "likes": 0,
+    "image": "https://images.pexels.com/photos/1199590/pexels-photo-1199590.jpeg" },
+  {"id": "w4",
+  "name": "Push-Ups",
+  "duration": "10 min",
+  "goal": "maintain",
+  "caloriesBurned": 100,
+  "likes": 0,
+  "image": "https://images.pexels.com/photos/414029/pexels-photo-414029.jpeg"
+  },
+  {"id": "w5",
+  "name": "Deadlifts & Compound Lifts",
+  "duration": "30 min","goal": "gain",
+  "caloriesBurned": 300,
+  "likes": 0,
+  "image": "https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg"
+  },
+  {"id": "w6",
+  "name": "Heavy Dumbbell Workout",
+  "duration": "35 min",
+  "goal": "gain",
+  "caloriesBurned": 320,
+  "likes": 0,
+  "image": "https://images.pexels.com/photos/1552106/pexels-photo-1552106.jpeg"
+  }
+  ]
+}
+

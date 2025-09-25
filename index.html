@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fitness Planner + Progress Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>💪 Fitness Planner</h1>
+    <p>Track your meals, workouts, and your progress over time.</p>
+  </header>
+
+  <section class="form-section">
+    <form id="userForm">
+      <h2>Enter Your Info</h2>
+      <input type="text" id="name" placeholder="Enter your name" required />
+      <select id="goal" required>
+        <option value="">-- Select Goal --</option>
+        <option value="lose">Lose Weight</option>
+        <option value="maintain">Maintain</option>
+        <option value="gain">Gain Muscle</option>
+      </select>
+      <button type="submit">Get Plan</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Meal Suggestions</h2>
+    <div id="meals" class="card-grid"></div>
+  </section>
+
+  <section>
+    <h2>Workout Suggestions</h2>
+    <div id="workouts" class="card-grid"></div>
+  </section>
+
+  <section class="progress-section">
+    <h2>Progress Tracker</h2>
+    <form id="progressForm">
+      <input type="date" id="progressDate" required />
+      <input type="number" id="progressValue" placeholder="Enter value (kg / reps / cal)" required />
+      <button type="submit">Add Progress</button>
+    </form>
+    <canvas id="progressChart" width="400" height="200"></canvas>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+ 
