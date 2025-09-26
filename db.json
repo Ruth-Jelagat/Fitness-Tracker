@@ -45,7 +45,7 @@
        ],
   "workouts": [
     { "id": "w1", 
-    "name": "Jump Rope",
+    "name": "Rope slams",
     "duration": "15 min", 
     "goal": "lose", 
     "caloriesBurned": 200, 
